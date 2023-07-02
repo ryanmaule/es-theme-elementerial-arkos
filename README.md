@@ -42,15 +42,8 @@ It's based on Android TV's interface using some principles from Material Design 
 
 # Last changes
 ```
-- Updated all existent backgrounds and added new
-- Remade custom background functionality
-- Added Capcom PlaySystem 1, 2 & 3 logos
-- Added auto collection logos and backgrounds
-- Added 3 selectable text sizes
-- Added option to use random game screenshots as system background
-- Updated Vertical Arcade logo
-- Updated carousel background to use random images when there is no background provided by theme
-- Updated whole layer indexes (no visual changes)
+- Forked from main project...
+
 ```
 
 <br>
@@ -87,7 +80,9 @@ Selectable text sizes:
 
 # Compatibility
 
-Elementerial was made for the following resolutions:
+This fork is developed for RG353V running ArkOS.
+
+Original Elementerial was made for the following resolutions:
 
 - **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec and RetroBat
 - **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera and RetroBat
