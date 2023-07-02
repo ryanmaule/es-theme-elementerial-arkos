@@ -9,8 +9,8 @@
   <include>./variables.xml</include>
 
   <subset name="Style" displayName="Style">
-    <include name="dark" displayName="Dark" />
-    <include name="light" displayName="Light" />
+    <include name="dark" displayName="Dark">./settings/colors/scheme-dark.xml</include>
+    <include name="light" displayName="Light">./settings/colors/scheme-light.xml</include>
   </subset>
 
   <subset name="Color scheme" displayName="Color scheme">
@@ -73,7 +73,7 @@
     <include name="videoMarquee" displayName="Marquee" />
   </subset>
 
-  <include>./settings/colors/scheme.xml</include>
+ <!-- <include>./settings/colors/scheme.xml</include> -->
   <include>./settings/display/view-general.xml</include>
   <include>./settings/display/view-system.xml</include>
   <include>./settings/display/view-basic.xml</include>
