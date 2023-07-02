@@ -16,7 +16,8 @@
   <subset name="Color scheme" displayName="Color scheme">
     <include name="strawberry" displayName="strawberry">./settings/colors/strawberry.xml</include>
     <include name="orange" displayName="orange">./settings/colors/orange.xml</include>
-    <include name="banana" displayName="banana">./settings/colors/banana.xml</include>
+    <include name="banana-dark" displayName="banana-dark">./settings/colors/banana-dark.xml</include>
+    <include name="banana-light" displayName="banana-light">./settings/colors/banana-light.xml</include>
     <include name="lime" displayName="lime">./settings/colors/lime.xml</include>
     <include name="mint" displayName="mint">./settings/colors/mint.xml</include>
     <include name="blueberry" displayName="blueberry">./settings/colors/blueberry.xml</include>
