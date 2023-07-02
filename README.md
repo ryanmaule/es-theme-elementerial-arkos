@@ -20,6 +20,8 @@
 
 ![Version 1.230514](https://img.shields.io/badge/Version_1.230514-de3e80?style=for-the-badge)
 
+This is a port in progress for ArkOS.
+
 Elementerial is a theme built totally from scratch for EmulationStation.
 It's based on Android TV's interface using some principles from Material Design with the addition of ElementaryOS color palette.
 
