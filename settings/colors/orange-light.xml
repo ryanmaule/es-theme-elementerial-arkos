@@ -7,10 +7,10 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <mainColor>F9C440</mainColor>
-    <onMainColor>1D1B16</onMainColor>
-    <bgColor>FFFDEB</bgColor>
-    <sectColor>d48e15</sectColor>
+    <mainColor>F37329</mainColor>
+    <onMainColor>FFF2EB</onMainColor>
+    <bgColor>FFF2EB</bgColor>
+    <sectColor>cc3b02</sectColor>
   </variables>
 
   <include>./scheme-light.xml</include>

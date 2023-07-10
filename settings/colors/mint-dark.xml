@@ -7,10 +7,10 @@
   <formatVersion>7</formatVersion>
 
   <variables>
-    <mainColor>F9C440</mainColor>
-    <onMainColor>1D1B16</onMainColor>
-    <bgColor>1D1B16</bgColor>
-    <sectColor>fff394</sectColor>
+    <mainColor>28BCA3</mainColor>
+    <onMainColor>161D1C</onMainColor>
+    <bgColor>161D1C</bgColor>
+    <sectColor>89ffdd</sectColor>
   </variables>
 
   <include>./scheme-dark.xml</include>

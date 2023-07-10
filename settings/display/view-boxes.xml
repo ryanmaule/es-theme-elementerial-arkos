@@ -1,6 +1,6 @@
 <!--
-  Theme: Elementerial
-  Author: mluizvitor
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
 -->
 
 <theme>
@@ -14,15 +14,10 @@
 
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>2 2</autoLayout>
-      <autoLayout ifSubset="Ratio:ratio53">3 2</autoLayout>
       <scrollLoop>false</scrollLoop>
       <imageSource>image</imageSource>
-
       <autoLayoutSelectedZoom>1.075</autoLayoutSelectedZoom>
-
       <margin ifSubset="Ratio:ratio32">0.0333333 0.05</margin>      <!-- 480x320 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.033333</margin>      <!-- 640x480 / 16x 16y -->
-      <margin ifSubset="Ratio:ratio43">0.025 0.041667</margin>      <!-- 1920x1152 / 48x 48y -->
     </imagegrid>
 
     <gridtile name="default, selected">
@@ -37,14 +32,10 @@
 
     <image name="gridtile.image">
       <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.015</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
       <roundCorners ifSubset="Ratio:ratio32">0.025</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio43">0.01</roundCorners>
-      <roundCorners ifSubset="Ratio:ratio53">0.01</roundCorners>
     </image>
 
     <image name="gridtile.marquee">
@@ -62,9 +53,7 @@
     <text name="gridtile">
       <size>1 0.2</size>
       <pos>0 0.7</pos>
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>

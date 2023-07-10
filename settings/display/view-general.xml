@@ -1,6 +1,6 @@
 <!--
-  Theme: Elementerial
-  Author: mluizvitor
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
 -->
 
 <theme>
@@ -10,18 +10,12 @@
   <view name="system, basic, detailed, grid, video">
     <helpsystem name="help">
       <fontPath>${fontHelper}</fontPath>
-      <fontSize>${fontSizeBody-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <origin>0 0.5</origin>
       <pos>0.016666667 0.96</pos>
     </helpsystem>
 
     <image name="borderOverlay" extra="true">
-      <path ifSubset="Ratio:ratio32">./assets/ratio32/borders.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/borders.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/borders.png</path>
-
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 1</size>
@@ -33,9 +27,7 @@
   <view name="basic, detailed, grid, video">
     <text name="logoText">
       <fontPath>${fontBold}</fontPath>
-      <fontSize>${fontSizeH2-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeH2-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeH2-small}</fontSize>
+      <fontSize>${fontSizeH2}</fontSize>
       <forceUppercase>0</forceUppercase>
       <alignment>left</alignment>
       <zIndex>5</zIndex>
@@ -43,9 +35,7 @@
 
     <textlist name="gamelist">
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${fontSizeBody-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeBody-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeBody-small}</fontSize>
+      <fontSize>${fontSizeBody}</fontSize>
       <alignment>left</alignment>
       <origin>0 0</origin>
       <zIndex>5</zIndex>
@@ -68,22 +58,7 @@
       <zIndex>-5</zIndex>
     </image>
 
-    <image name="cover_list" extra="true" ifSubset="Background Style:custom">
-      <path>./customBackground/${system.theme}.jpg</path>
-      <path>./customBackground/${system.theme}.jpeg</path>
-      <path>./customBackground/${system.theme}.png</path>
-      <path>./customBackground/${system.theme}.webp</path>
-
-      <path>./customBackground/general.jpg</path>
-      <path>./customBackground/general.jpeg</path>
-      <path>./customBackground/general.png</path>
-      <path>./customBackground/general.webp</path>
-    </image>
-
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/gamelist-basic.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-basic.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-basic.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -106,11 +81,6 @@
       <lineSpacing ifHelpPrompts="true">1.6</lineSpacing>
       <lineSpacing ifHelpPrompts="true" ifSubset="FontSize:small">1.675</lineSpacing>
 
-      <lineSpacing ifSubset="Ratio:ratio43">1.5</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio43" ifHelpPrompts="true">1.525</lineSpacing>
-
-      <lineSpacing ifSubset="Ratio:ratio53">1.6</lineSpacing>
-      <lineSpacing ifSubset="Ratio:ratio53" ifHelpPrompts="true">1.575</lineSpacing>
     </textlist>
   </view>
 
@@ -152,11 +122,8 @@
       <origin>0 0</origin>
 
       <pos>0.61 0.83125</pos>      <!-- 480x320 / 304x 272y-->
-      <pos ifSubset="Ratio:ratio43">0.6075 0.83125</pos>
-      <pos ifSubset="Ratio:ratio53">0.62 0.83125</pos>
 
       <size>0.075</size>
-      <size ifSubset="Ratio:ratio43">0.066667</size>
 
       <filledPath>./assets/icons/star.svg</filledPath>
       <unfilledPath>./assets/icons/star_border.svg</unfilledPath>
@@ -190,9 +157,10 @@
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
 
-      <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
+      <!-- <snapshotSource ifSubset="VideoSnapshot:videoThumbnail|videoDefault">thumbnail</snapshotSource>
       <snapshotSource ifSubset="VideoSnapshot:videoScreenshot">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource> -->
+      <snapshotSource>${videoSnapshot}</snapshotSource>
       <zIndex>0</zIndex>
     </video>
 
@@ -209,9 +177,6 @@
     </rating>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-video.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>

@@ -1,6 +1,6 @@
 <!--
-  Theme: Elementerial
-  Author: mluizvitor
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
 -->
 
 <theme>
@@ -24,7 +24,7 @@
     <fontSizeH3-small>0.0375</fontSizeH3-small> <!-- 12 -->
     <fontSizeBody-small>0.03125</fontSizeBody-small> <!-- 10 -->
     <fontSizeCaption-small>0.028125</fontSizeCaption-small> <!-- 9 -->
-    
+
     <fontRegular>./assets/fonts/Inter/Inter-Regular.otf</fontRegular>
     <fontBold>./assets/fonts/Inter/Inter-Bold.otf</fontBold>
     <fontLight>./assets/fonts/Inter/Inter-Light.otf</fontLight>
@@ -42,4 +42,3 @@
     <percent.5>0D</percent.5>
   </variables>
 </theme>
-  

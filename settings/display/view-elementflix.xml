@@ -1,6 +1,6 @@
 <!--
-  Theme: Elementerial
-  Author: mluizvitor
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
 -->
 
 <theme>
@@ -20,7 +20,6 @@
 
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>3.5 1</autoLayout>
-      <autoLayout ifSubset="Ratio:ratio53">5 1</autoLayout>
 
       <imageSource>thumb</imageSource>
       <animateSelection>false</animateSelection>
@@ -33,8 +32,6 @@
 
     <ninepatch name="gridtile.background">
       <path ifSubset="Ratio:ratio32"></path>
-      <path ifSubset="Ratio:ratio43"></path>
-      <path ifSubset="Ratio:ratio53"></path>
       <path>./assets/grid-selector.png</path>
       <cornerSize>6 6</cornerSize>
     </ninepatch>
@@ -43,8 +40,6 @@
       <imageColor>FFFFFFFF</imageColor>
       <padding>2 2</padding>
       <padding ifSubset="Ratio:ratio32">2 2</padding>
-      <padding ifSubset="Ratio:ratio43">3 3</padding>
-      <padding ifSubset="Ratio:ratio53">4 4</padding>
     </gridtile>
 
     <gridtile name="selected">
@@ -73,10 +68,11 @@
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
       <effect>none</effect>
-
+<!-- 
       <snapshotSource ifSubset="VideoSnapshot:videoThumbnail">thumbnail</snapshotSource>
       <snapshotSource ifSubset="VideoSnapshot:videoScreenshot|videoDefault">image</snapshotSource>
-      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource>
+      <snapshotSource ifSubset="VideoSnapshot:videoMarquee">marquee</snapshotSource> -->
+      <snapshotSource>${videoSnapshot}</snapshotSource>
     </video>
 
     <text name="md_description">
@@ -85,9 +81,7 @@
 
       <color>${fgColor}</color>
       <fontPath>${fontRegular}</fontPath>
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeCaption-small}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <lineSpacing>1.1</lineSpacing>
     </text>
 
@@ -116,9 +110,6 @@
     </rating>
 
     <image name="custom_bg_fg" extra="true">
-      <path>./assets/ratio32/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio43">./assets/ratio43/gamelist-video.png</path>
-      <path ifSubset="Ratio:ratio53">./assets/ratio53/gamelist-video.png</path>
       <size>1 1</size>
       <origin>0 0</origin>
       <pos>0 0</pos>
@@ -128,9 +119,7 @@
     <text name="gridtile">
       <size>1 0.2</size>
       <pos>0 0.75</pos>
-      <fontSize>${fontSizeCaption-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeCaption-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeCaption-large}</fontSize>
+      <fontSize>${fontSizeCaption}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <alignment>center</alignment>
       <lineSpacing>1.2</lineSpacing>
@@ -143,9 +132,7 @@
     <text name="logoText">
       <origin>0 0.5</origin>
       <pos>0.033333333 0.45</pos>
-      <fontSize>${fontSizeH3-medium}</fontSize>
-      <fontSize ifSubset="FontSize:large">${fontSizeH3-large}</fontSize>
-      <fontSize ifSubset="FontSize:small">${fontSizeH3-small}</fontSize>
+      <fontSize>${fontSizeH3}</fontSize>
     </text>
   </customView>
 

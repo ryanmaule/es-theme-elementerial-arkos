@@ -1,6 +1,6 @@
 <!--
-  Theme: Elementerial
-  Author: mluizvitor
+  Theme: Elementerial-ArkOS
+  Author: giovaboy
 -->
 
 <theme>
@@ -121,9 +121,7 @@
   <!-- Carousel Config -->
   <view name="system">
     <carousel name="systemcarousel">
-      <color ifSubset="Background Style:default">${bgColor}00</color>
-      <color ifSubset="Background Style:random">${bgColor}00</color>
-      <color ifSubset="Background Style:custom">${bgColor}00</color>
+      <color>${bgColor}00</color>
     </carousel>
 
     <!-- System Name -->
