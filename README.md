@@ -19,6 +19,7 @@
 # About
 
 ![Version 1.230514](https://img.shields.io/badge/Version_1.230514-de3e80?style=for-the-badge)
+![Revision 0.1](https://img.shields.io/badge/Revision_0.1-4CAF50?style=for-the-badge)
 
 This is a port in progress for ArkOS.
 
@@ -42,7 +43,16 @@ It's based on Android TV's interface using some principles from Material Design 
 
 # Last changes
 ```
-- Forked from main project...
+v0.1 - Fork Enhancements:
+- Added complete 1:1 (720x720) square ratio support for R36Max devices
+  * Created view-system-11.xml with optimized layouts for square screens
+  * Added ratio11 asset directory with 720x720 background images
+  * Fixed status bar positioning and battery indicator alignment
+  * Integrated 1:1 ratio option into theme selection system
+- Fixed PNG asset format issues (converted from 8-bit colormap to RGBA)
+- Added comprehensive .gitignore to exclude IDE files and system files
+- Updated compatibility documentation for square ratio devices
+- Forked from original Elementerial project for ArkOS optimization
 
 ```
 
