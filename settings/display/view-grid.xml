@@ -53,6 +53,7 @@
       <backgroundColor>00000000</backgroundColor>
       <imageColor>FFFFFFFF</imageColor>
       <padding ifSubset="Ratio:ratio32">3 3</padding>
+      <padding ifSubset="Ratio:ratio11">5 5</padding>
     </gridtile>
 
     <gridtile name="selected">
@@ -63,10 +64,12 @@
 
     <image name="gridtile.image">
       <roundCorners ifSubset="Ratio:ratio32">0.03</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio11">0.035</roundCorners>
     </image>
 
     <image name="gridtile.image:selected">
       <roundCorners ifSubset="Ratio:ratio32">0.02</roundCorners>
+      <roundCorners ifSubset="Ratio:ratio11">0.02</roundCorners>
     </image>
 
     <ninepatch name="gridtile.background">
@@ -84,6 +87,8 @@
 
       <size ifSubset="Ratio:ratio32">0.92 0.225</size>
       <padding ifSubset="Ratio:ratio32">0.04 0</padding>
+      <size ifSubset="Ratio:ratio11">0.9 0.2</size>
+      <padding ifSubset="Ratio:ratio11">0.05 0</padding>
     </text>
 
     <rating name="md_rating">

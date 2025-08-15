@@ -59,6 +59,7 @@
     <include name="ratio32" displayName="3:2">./settings/display/view-system-32.xml</include>
     <include name="ratio43" displayName="4:3">./settings/display/view-system-43.xml</include>
     <include name="ratio53" displayName="5:3">./settings/display/view-system-53.xml</include>
+    <include name="ratio11" displayName="1:1">./settings/display/view-system-11.xml</include>
   </subset>
 
   <include>./settings/display/view-basic.xml</include>

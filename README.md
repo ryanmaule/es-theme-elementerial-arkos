@@ -87,6 +87,7 @@ Original Elementerial was made for the following resolutions:
 - **480x320** (3:2 screen ratio), tested on Anbernic RG351M running AmberElec and RetroBat
 - **640x480** (4:3 screen ratio), tested on VirtualBox running Batocera and RetroBat
 - **1920x1152** (5:3 screen ratio), tested on VirtualBox running Batocera and RetroBat
+- **720x720** (1:1 screen ratio), tested on R36Max running ArkOS
 
 \* It's possible to use Elementerial in other resolutions and systems based on EmulationStation, however full compatibility is not guaranteed.
 

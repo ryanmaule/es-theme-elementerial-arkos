@@ -112,7 +112,7 @@
       <fontSize>${fontSizeCaption-medium}</fontSize>
       <fontPath>${fontRegular}</fontPath>
       <lineSpacing>1</lineSpacing>
-      <alignment>right</alignment>
+      <alignment>left</alignment>
     </text>
 
     <batteryIndicator name="batteryIndicator">

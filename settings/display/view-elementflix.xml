@@ -32,6 +32,7 @@
 
     <ninepatch name="gridtile.background">
       <path ifSubset="Ratio:ratio32"></path>
+      <path ifSubset="Ratio:ratio11">./assets/grid-selector.png</path>
       <path>./assets/grid-selector.png</path>
       <cornerSize>6 6</cornerSize>
     </ninepatch>
@@ -40,6 +41,7 @@
       <imageColor>FFFFFFFF</imageColor>
       <padding>2 2</padding>
       <padding ifSubset="Ratio:ratio32">2 2</padding>
+      <padding ifSubset="Ratio:ratio11">3 3</padding>
     </gridtile>
 
     <gridtile name="selected">
