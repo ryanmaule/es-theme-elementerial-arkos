@@ -21,6 +21,8 @@
 ![Version 1.230514](https://img.shields.io/badge/Version_1.230514-de3e80?style=for-the-badge)
 ![Revision 0.1](https://img.shields.io/badge/Revision_0.1-4CAF50?style=for-the-badge)
 
+> :warning: **EXPERIMENTAL FORK**: This is a personal fork specifically designed for R36Max devices with 1:1 (720x720) square ratio support and minor UI adjustments. This fork is experimental and should only be used for testing purposes. For stable usage, please use the original Elementerial theme.
+
 This is a port in progress for ArkOS.
 
 Elementerial is a theme built totally from scratch for EmulationStation.
