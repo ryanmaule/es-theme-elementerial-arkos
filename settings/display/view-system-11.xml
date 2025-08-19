@@ -19,6 +19,10 @@
       <logoPos ifSubset="Ratio:ratio11">0.175 0.575</logoPos>
     </carousel>
 
+    <image name="borderOverlay" extra="true">
+      <path>./assets/${ratioPath}/borders.png</path>
+    </image>
+
     <image name="custom_bg_fg" extra="true">
       <path ifSubset="Ratio:ratio11">./assets/${ratioPath}/carousel-background.png</path>
     </image>
@@ -36,7 +40,7 @@
 
   <!-- from view-general.xml -->
   <!-- ratioPath -->
-  <view name="system, basic, detailed, grid, video">
+  <view name="basic, detailed, grid, video">
     <image name="borderOverlay" extra="true">
       <path>./assets/${ratioPath}/borders.png</path>
     </image>
