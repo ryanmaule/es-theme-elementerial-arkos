@@ -45,16 +45,22 @@ It's based on Android TV's interface using some principles from Material Design 
 
 # Last changes
 ```
-v0.1 - Fork Enhancements:
+v0.1 - FINAL RELEASE - Complete 1:1 Square Ratio Support:
 - Added complete 1:1 (720x720) square ratio support for R36Max devices
   * Created view-system-11.xml with optimized layouts for square screens
   * Added ratio11 asset directory with 720x720 background images
   * Fixed status bar positioning and battery indicator alignment
   * Integrated 1:1 ratio option into theme selection system
 - Fixed PNG asset format issues (converted from 8-bit colormap to RGBA)
-- Added comprehensive .gitignore to exclude IDE files and system files
+- Fixed clock positioning with proper left margin to match theme spacing
+- Cleaned up abandoned projects and maintained clean codebase
 - Updated compatibility documentation for square ratio devices
+- Added experimental fork warnings and comprehensive documentation
 - Forked from original Elementerial project for ArkOS optimization
+
+This is likely the final release of this fork. The theme is now stable
+and production-ready for R36Max devices with complete square ratio support.
+All planned features have been implemented and tested.
 
 ```
 
