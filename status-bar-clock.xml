@@ -8,6 +8,7 @@
 
   <view name="screen">
     <text name="clock">
+      <pos ifSubset="Status Bar:clock">0.033333 0.03125</pos>      <!-- 480x320 / 16x 10y - matches spacing above -->
       <size ifSubset="Status Bar:clock">0.966667 0</size>      <!-- 480x320 / 432x-->
     </text>
 
