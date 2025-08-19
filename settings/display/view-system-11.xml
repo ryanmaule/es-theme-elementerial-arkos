@@ -142,7 +142,7 @@
   <!-- Status bar and screen elements for square layout -->
   <view name="screen">
     <text name="clock">
-      <pos ifSubset="Ratio:ratio11">0.0125 0.04</pos>      <!-- 720x720 / ~9x ~29y (added left margin to match spacing)-->
+      <pos ifSubset="Ratio:ratio11">0.04 0.04</pos>      <!-- 720x720 / ~29x ~29y (equal left and top margins)-->
       <size ifSubset="Ratio:ratio11">0.84 0</size>      <!-- 720x720 / ~605x-->
       <fontSize ifSubset="Ratio:ratio11">${fontSizeCaption-medium}</fontSize>
     </text>
